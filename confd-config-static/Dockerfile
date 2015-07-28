@@ -1,0 +1,1 @@
+FROM brandnetworks/confd-data

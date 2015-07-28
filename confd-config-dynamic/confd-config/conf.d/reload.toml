@@ -1,0 +1,8 @@
+[template]
+prefix = "/dynamic"
+src = "dynamic.cfg.tmpl"
+dest = "/etc/confd/dynamic.cfg"
+keys = [
+    "/bar"
+]
+reload_cmd = "docker restart confd_test_dummy"

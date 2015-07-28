@@ -1,0 +1,7 @@
+[template]
+prefix = "/static"
+src = "static.cfg.tmpl"
+dest = "/etc/confd/static.cfg"
+keys = [
+    "/foo"
+]
